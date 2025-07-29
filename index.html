@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Partidas Rankeadas</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Tela de entrada -->
+  <section id="inputScreen" class="container screen">
+    <h1>Calculadora de Partidas Rankeadas</h1>
+    <!-- Tela de entrada de Vitórias-->
+    <div class="images">
+      <div class="image-input">
+        <img src="assets/victory.jpg" alt="Victory" class="icon" />
+        <input type="number" id="victoriesInput" placeholder="Vitórias">
+      </div>
+      <!-- Tela de entrada de Derrotas -->
+      <div class="image-input">
+        <img src="assets/defeat.jpg" alt="Defeat" class="icon" />
+        <input type="number" id="defeatsInput" placeholder="Derrotas">
+      </div>
+    </div>
+    <!-- Botão para calcular resultado do Rank -->
+    <button onclick="calculateRank()">Classificar Rank</button>
+  </section>
+
+  <!-- Tela de resultado -->
+  <section id="resultScreen" class="container screen hidden">
+    <h2 id="finalMessage"></h2>
+    <div id="finalCard"></div>
+    <button onclick="resetCalculator()">🔁 Calcular Novamente</button>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
