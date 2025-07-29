@@ -82,7 +82,7 @@ CALCULADORA-PARTIDAS-RANKEADAS/
 ## ✨ Autor
 
 Desenvolvido por **Geovana Oliveira**  
-Projeto criado como exercício da trilha de lógica de programação com JavaScript.
+Projeto criado como exercício da trilha de lógica de programação com JavaScript da DIO **(DigitalInnovation One)**.
 
 ---
 
